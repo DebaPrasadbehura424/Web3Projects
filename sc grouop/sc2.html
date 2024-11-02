@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scg corporate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin Sketch", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 20px;
+  }
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #fff;
+}
+
+.sc_logo img {
+    width: 70px;
+    padding-left: 20px;
+
+
+}
+
+.fa-bars {
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+
+
+#navbar {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 5%;
+}
+
+#manulist {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transition: all 0.75s ease-in-out;
+    cursor: pointer;
+    transform: translateX(100%);
+}
+
+.fa-xmark {
+    position: absolute;
+    right: 2%;
+    background-color: #fff;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    top: 2%;
+    width: 25px;
+    color: green;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#manulist ul {
+    background-color: green;
+    border: 1px solid #fff;
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+#manulist ul li {
+    list-style: none;
+}
+
+#manulist ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#brands #Brands_option {
+    background-color: rgb(255, 255, 255);
+    line-height: 35px;
+    color: green;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+#plusminus {
+    cursor: pointer;
+}
+
+.change {
+    display: none;
+}
+
+#green_one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: green;
+}
+
+/* .circle {
+    width: 520px;
+    height: 520px;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border: 10px solid #ffffff;
+    flex-wrap: wrap;
+} */
+
+
+
+.ownersection {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ownersection h2 {
+    font-size: 50px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.ownersection img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.ownersection button {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    width: 300px;
+    height: 700px;
+    margin-left: 0px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+#slide {
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.inividual_products {
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.product_contains {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_contains button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px solid green;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.inividual_products img {
+    width: 150px;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 60px;
+}
+
+.switch button {
+    width: 100px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px solid green;
+    color: #fff;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+
+.media_center {
+    width: 100%;
+    height: 55vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.media_cover {
+    width: 550px;
+    height: 400px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+
+#media_slider {
+    display: flex;
+    transition: all 0.75s ease-in-out;
+
+}
+
+.media_photos {
+    width: 100%;
+    height: 100%;
+
+}
+
+.media_photos p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.dots {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    gap: 20px;
+}
+
+.dots li {
+    list-style: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.dots li.ok {
+    background-color: green;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(244, 48, 65);
+}
+
+.first_col {
+    width: 100%;
+    height: 20vh;
+    padding-left: 300px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.first_col img {
+    width: 100px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(244, 48, 65);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner img {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.partners {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 48, 65);
+    font-family: "Roboto", sans-serif;
+}
+
+.last_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(128, 113, 0);
+    height: 60vh;
+    width: 100%;
+}
+
+.last_section_context {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.last_section_context span {
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 4px solid green;
+}
+
+.last_section_context h2 {
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
+.last_section_context::-webkit-scrollbar {
+    width: 5px;
+}
+
+.last_section_context::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.last_section_context::-webkit-scrollbar-thumb {
+    background: rgb(128, 113, 0);
+    border-radius: 20px;
+  }
+
+
+
+
+
+
+
+            @media(max-width:700px){
+
+   
+.ownersection img {
+    width: 300px;
+}
+.ownersection h2 {
+    font-size: 30px;
+  
+
+}
+.media_center{
+    display: none;
+}
+.dots{
+    display: none;
+}
+
+.first_col {
+    position: absolute;
+    right: 0%;
+   
+}
+
+.first_col img {
+    width: 50px;
+}
+.partners{
+    display: none;
+}
+.brands h1{
+    display: none;
+}
+
+.banner {
+    
+    font-size: 15px;
+    
+}
+
+.banner img {
+  width: 100%;
+}
+
+
+
+
+.last_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(128, 113, 0);
+    height: 40vh;
+    width: 100%;
+}
+
+.last_section_context {
+    width: 300px;
+    flex-wrap: wrap;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+.last_section_context span {
+    font-size: 15px;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 4px solid green;
+}
+
+.last_section_context h2 {
+    font-size: 15px;
+    flex-wrap: wrap;
+    font-weight: 100;
+
+}
+#green_one h1{
+    color: #fff;
+}
+
+
+
+
+
+
+}
+        </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="sc_logo">
+            <img src="https://www.sgcorporates.com/images/sg-logo-2.png" alt="sg group logo">
+        </div>
+        <div id="navbar">
+            <p>MENU</p>
+            <i class="fa-solid fa-bars" id="hamburger"></i>
+        </div>
+    </nav>
+    <div id="manulist">
+        <i class="fa-solid fa-xmark" id="xmark"></i>
+        <ul id="options">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us </a></li>
+            <li id="brands">
+                <a href="#">Brands</a> <i class="fa-solid fa-plus" id="plusminus"></i>
+                <ul id="Brands_option" class="change">
+                    <li>Bindu Water</li>
+                    <li>Bindu Lemon</li>
+                    <li>Sipon</li>
+                    <li>Snack up</li>
+                    <li>Zivo</li>
+                </ul>
+
+            </li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">Save Enviroment</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+    <div id="green_one">
+        <img src="https://www.sgcorporates.com/images/bubble-icon.png " alt="buble">
+        <h1>INOVATIVE FOR PURE TATSTE</h1>
+        <h1>OF HAPPINES</h1>
+        <h1>WELCOME TO THE SG GROUP</h1>
+    </div>
+    <div class="ownersection">
+        <h2>COMPANY OVERVEIW</h2>
+        <img src="https://www.sgcorporates.com/images/company-overview.png" alt="owner">
+        <button>KNOW MORE</button>
+    </div>
+
+
+    <h1 class="partners">
+        OUR BRANDS
+    </h1>
+    <div class="container">
+        <div class="products">
+            <div id="slide">
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Bindu Water</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/bindu-water-home.png" alt="bottole">
+                </div>
+
+
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Bindu Cola</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/bindu-jeera-home.png" alt="bottole">
+                </div>
+
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Bindu Maza</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/sipon-mango3Copy.png" alt="bottole">
+                </div>
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Bindu Fruzen</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/fruzon-home.png" alt="bottole">
+                </div>
+
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Zivo</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/zivo-home.png" alt="bottole">
+                </div>
+                <div class="inividual_products">
+                    <div class="product_contains">
+                        <h3>Snack-up</h3>
+                        <button>Know More</button>
+                    </div>
+                    <img src="https://www.sgcorporates.com/images/snakup-home.png" alt="bottole">
+                </div>
+
+
+
+
+
+            </div>
+            <div class="switch">
+                <button id="back">back</button>
+                <button id="next">next</button>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <h1 class="partners">
+        OUR MEDIA PARTNERS
+    </h1>
+    <br>
+
+    <div class="media_center">
+        <div class="media_cover">
+            <div id="media_slider">
+                <div class="media_photos">
+                    <img src="https://www.sgcorporates.com/images/latest-news2.jpg" alt="firstphoto">
+                    <p>SG corporate films, our journey,our vision</p>
+                </div>
+                <div class="media_photos">
+                    <img src="    https://www.sgcorporates.com/images/latest-news1.jpg" alt="firstphoto">
+                    <p>Namura jaha a document by spanadan Tv</p>
+                </div>
+                <div class="media_photos">
+                    <img src=" https://www.sgcorporates.com/images/latest-news4.jpg" alt="firstphoto">
+                    <p>Our awards and achievmet</p>
+                </div>
+                <div class="media_photos">
+                    <img src="  https://www.sgcorporates.com/images/latest-news3.jpg" alt="firstphoto">
+                    <p>socialization of our group</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="dots">
+        <li class="ok"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="brands">
+        <h1>OUR PARTNERS</h1>
+        <div class="first_col">
+            <img src="https://www.sgcorporates.com/images/partners/amazon.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/Big-Baazar.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/big-basket.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/Coffee-Day.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/d-mart.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/easyday.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/Groffers.png" alt="amazon">
+        </div>
+        <div class="first_col">
+            <img src="https://www.sgcorporates.com/images/partners/heritage.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/hypercity.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/metro.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/MK-Retail.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/more-store.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/Nilgiris.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/reliance-e-commerce.png" alt="amazon">
+
+        </div>
+        <div class="first_col">
+            <img src="https://www.sgcorporates.com/images/partners/reliance-jio-mart.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/reliance-jio-smart.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/reliance-market.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/reliance.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/Sarkari-Bandhar.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/spar-logo.png" alt="amazon">
+            <img src="https://www.sgcorporates.com/images/partners/walmart.png" alt="amazon">
+        </div>
+
+    </div>
+
+    <div class="banner">
+
+        <h1>SAVE ENVIROMENT</h1>
+        <img src="https://www.sgcorporates.com/images/protect-the-environment-from-plastic.jpg" alt="banneer">
+    </div>
+
+     <h1 class="partners">
+        CONTACT US
+    </h1>
+
+    <div class="last_contact">
+
+        <div class="last_section_context">
+            <h1><span>REGISTER OFFICE : </span></h1>
+            <h2>MEGHA FRUIT PROCESSING PVT LTD
+                NARIMOGERU VILLAGE
+                PUTTUR -574202
+                DAKSHINA KANNADA
+                KARNATAKA</h2>
+            <h2>PH: 08251 280689,280589,230189</h2>
+            <h2>EMAIL: info@sgcorporates.com</h2>
+            <h2>WHATSAPP NUMBER: 98448 48916WHATSAPP NUMBER: 98448 48916</h2>
+            <h1> <span>CORPORATE OFFICE : </span></h1>
+            <h2>MEGHA FRUIT PROCESSING PVT LTD
+                45/3,TUMKUR ROAD
+                OPP. VAISHNAVI MALL
+                YESHWANTHPUR -560022
+                BANGALORE</h2>
+            <h2>PH: 8722155533, 08048142117 </h2>
+            <h2> EMAIL: info@sgcorporates.com</h2>
+
+            <h1><span>UNIT 1:</span></h1>
+            <h2>MEGHA FRUIT PROCESSING PVT LTD
+                NARIMOGERU VILLAGE
+                PUTTUR TALUK - 574202
+                DAKSHINA KANNADA
+                KARNATAKA</h2>
+<h2>PH- 08251 280689,280589,230189</h2>
+<h2>EMAIL: info@sgcorporates.com</h2>
+<h1><span>UNIT 2:</span></h1>
+<h2>MEGHA FRUIT PROCESSING PVT LTD
+    MALLEPALLY VILLAGE
+    KONDAPUR MANDAL - 502306
+    DIST. SANGAREDDY
+    TELANGANA</h2>
+    <h2>PH: 9100888139</h2>
+    <h2>EMAIL: info@sgcorporates.com</h2>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script >
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+let hambergur = document.getElementById('hamburger')
+let menulist = document.getElementById('manulist');
+let xmark = document.getElementById('xmark');
+let options = document.getElementById('menulist ul');
+
+
+hambergur.addEventListener('click', () => {
+    menulist.style.transform = "translateX(0%)";
+    
+    menulist.style.display="block";
+});
+xmark.addEventListener("click", () => {
+    menulist.style.transform = "translateX(100%)";
+setTimeout(()=>{
+
+    menulist.style.display="none";
+
+},1000)
+
+})
+
+let brands = document.getElementById('brands');
+let brandoption = document.getElementById('Brands_option');
+let plusminus = document.getElementById('plusminus');
+let icon = "true"
+brands.addEventListener('click', () => {
+    plusminus.classList.remove('fa-plus')
+    plusminus.classList.add('fa-minus')
+    if (icon == "true") {
+        plusminus.classList.remove('fa-plus')
+        plusminus.classList.add('fa-minus')
+        icon = "false";
+    } else {
+        plusminus.classList.remove('fa-minus')
+        plusminus.classList.add('fa-plus')
+        icon = "true";
+    }
+    brandoption.classList.toggle('change');
+})
+
+
+let next = document.getElementById('next');
+let slider = document.getElementById('slide');
+let ind = document.querySelectorAll('.inividual_products');
+let slidnum = 1;
+next.addEventListener('click', () => {
+    if (slidnum < ind.length) {
+        slider.style.transform = `translateX(-${slidnum * 250}px)`
+        slidnum++;
+        next.style.display = "block";
+        prev.style.display = "block";
+
+    } else {
+        next.style.display = "none";
+        prev.style.display = "block";
+
+    }
+})
+
+
+
+let prev = document.getElementById('back');
+
+prev.addEventListener('click', () => {
+
+    if (slidnum == 1) {
+
+        next.style.display = "block";
+        prev.style.display = "none";
+    } else {
+
+        slider.style.transform = `translateX(-${(slidnum - 2) * 250}px)`;
+        slidnum--;
+        next.style.display = "block";
+
+
+
+    }
+})
+
+
+
+let mediaslider = document.getElementById('media_slider');
+let dots = document.querySelectorAll('.dots li');
+dots.forEach((lost, key) => {
+    lost.addEventListener('click', () => {
+        let sim = key;
+        mediaslider.style.transform = `translateX(-${(key) * 550}px)`;
+      
+        for (var i = 0; i < dots.length; i++) {
+            dots[i].classList.remove('ok');
+        }
+        dots[sim].classList.add('ok');
+        
+    })
+
+
+
+
+})
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
