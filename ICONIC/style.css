@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#core1 {
+    min-width: 900px;
+    height: 70vh;
+    position: relative;
+}
+
+#navbar1 {
+    min-width: 190px;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    font-family: "Merriweather", serif;
+}
+
+#core1 #navbar1 #logo_content {
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+#core1 #navbar1 #logo_options {
+    display: flex;
+    align-items: center;
+    margin-left: 65vw;
+}
+
+#core1 #navbar1 #logo_options h4 {
+    padding-left: 20px;
+}
+
+#core1 #navbar2 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    font-family: "Merriweather", serif;
+    border: 1px solid #000;
+
+
+}
+
+#navbar2 img {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    background-color: #ff0000;
+    border: 1px solid #000;
+}
+
+/* //drag gsap */
+
+
+
+#core1 #navbar3 {
+    width: auto;
+    height: 30vh;
+    display: flex;
+    position: relative;
+    /* flex-wrap: wrap; */
+
+}
+
+#core1 #navbar3 h3 {
+    box-sizing: border-box;
+    padding-top: 80px;
+    font-weight: bold;
+    width: 450px;
+    margin-left: 2vw;
+    font-size: 20px;
+}
+
+
+
+
+
+#core2 {
+    min-width: 900px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: "Merriweather", serif;
+}
+
+#core2 #big_ban {
+    min-width: 900px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#big_ban h1 {
+    font-size: 380px;
+
+}
+
+#core2 #big_photo {
+    position: absolute;
+    overflow: hidden;
+    left: 20%;
+    top: 0%;
+}
+
+#core2 img {
+    height: 60rem;
+
+}
+
+#core2 #big_foot h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-size: 170px;
+    color: transparent;
+    text-shadow: 1px 1px 1px #0000006d;
+}
+
+#core3 {
+    width: 100%;
+    height: auto;
+    /* background-color: #ff0000; */
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#core3 h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Anta", sans-serif;
+
+}
+
+#core3 div {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#core3 img {
+    width: 90%;
+    border-radius: 30px;
+    z-index: 0;
+    transition: all 0.1s ease-in-out;
+}
+
+#core3 img:hover {
+
+    transform: scale(0.9);
+}
+
+#core3 p {
+    width: 70rem;
+    text-align: justify;
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+
+}
+
+#core4 {
+    width: 100%;
+    height: auto;
+}
+
+#core4 #resort_gate8,
+#core4 #resort_gate6,
+#core4 #resort_gate4,
+#core4 #resort_gate2,
+#core4 #resort_gate {
+    text-align: center;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#core4 #resort_gate9,
+#core4 #resort_gate7,
+#core4 #resort_gate5,
+#core4 #resort_gate3,
+#core4 #resort_gate1 {
+    text-align: center;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60%;
+}
+
+#core4 img {
+    border-radius: 30px;
+}
+
+#imfs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imfs img {
+    opacity: 0;
+    width: 50px;
+    z-index: 99;
+    transition: all 0.75s ease-in-out;
+}
+
+#imfs2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imfs2 img {
+    width: 50px;
+    z-index: 99;
+    transition: all 0.75s ease-in-out;
+}
+
+#core6 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#core6 #fillers {
+    display: flex;
+}
+
+#core6 img {
+    width: 200rem;
+}
+
+#core5 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#core5 button {
+    position: absolute;
+    top: 10%;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 2px 1px 3px 3px #ffffff4f;
+
+}
+
+#core5 .box1,
+#core5 .box2,
+#core5 .box3,
+#core5 .box4,
+#core5 .box5,
+#core5 .box6,
+#core5 .box7,
+#core5 .box8,
+#core5 .box9,
+#core5 .box10,
+#core5 .box11,
+#core5 .box12,
+#core5 .box13,
+#core5 .box14 {
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-size: cover;
+    border-radius: 10px;
+    object-fit: fill;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease;
+
+}
+
+
+#core7{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#special{
+    display: flex;
+    
+}
+#special .paras{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#special img{
+    width: 500px;
+    height: 350px;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+/*  */
+#core8{
+    width: 100%;
+    height: 60vh;
+}
+#special2{
+    display: flex;
+    
+}
+#special2 .paras{
+    width: 500px;
+    height: 350px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#special2 img{
+    width: 500px;
+    height: 350px;
+    border: 1px solid #fff;
+}
