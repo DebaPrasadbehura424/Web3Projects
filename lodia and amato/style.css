@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+*::selection {
+    color: rgb(204, 150, 112);
+    background-color: #fff;
+}
+
+#troller {
+    width: 100%;
+    height: 3vh;
+    background: #000;
+    flex-wrap: nowrap;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+}
+
+.marq_con {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: go 20s infinite;
+    position: fixed;
+    height: 3vh;
+    background: #000;
+    white-space: nowrap;
+    animation: go 50s infinite;
+    transition: all 0.75s ease-in-out;
+}
+
+@keyframes go {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#logosection {
+    height: 9vh;
+    width: fit-content;
+    padding: 0px 40px;
+    padding-top: 25px;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+#logosection a {
+    text-decoration: none;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 20px;
+}
+
+.options i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#hamburgur {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#hamburgur:hover #one {
+    transform: translateX(-10%);
+
+}
+
+#hamburgur:hover #three {
+    transform: translateX(-10%);
+
+}
+
+#hamburgur:hover #two {
+    transform: translateX(10%);
+
+}
+
+#hamburgur .line {
+    width: 45px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 3px;
+    transition: all 0.9s ease;
+}
+
+#hamberger_tap_option {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+
+}
+
+.about {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+
+#hamberger_tap_option h1 {
+    font-size: 85px;
+    text-align: center;
+    letter-spacing: -5px;
+    transition: all 0.75s ease-in-out;
+    overflow: hidden;
+    background-color: #969693;
+
+}
+
+#hamberger_tap_option h1:hover {
+    letter-spacing: 5px;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f2f285;
+    border-radius: 50%;
+    opacity: 50%;
+    box-shadow: 0px 0px 10px 45px #ffffff1e;
+    position: fixed;
+    opacity: 0;
+    scale: 0;
+}
+
+
+#wines {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+#tert {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+#about {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+
+
+#bottle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+
+}
+
+#bottle img {
+    width: 100px;
+    transform: rotate(-15deg);
+    scale: 0.5;
+}
+
+#lefthand {
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    cursor: pointer;
+}
+
+#lefthand img {
+    width: 700px;
+    transform: rotate(-25deg);
+    scale: 0.5;
+    transition: all 0.75s ease-in-out;
+}
+
+#righthand {
+    position: absolute;
+    top: 60%;
+    right: -5%;
+    cursor: pointer;
+}
+
+#righthand img {
+    width: 600px;
+    transform: rotate(20deg);
+    scale: 0.5;
+    transition: all 0.75s ease-in-out;
+}
+
+#cone {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    cursor: pointer;
+}
+
+#cone img {
+    width: 200px;
+    transform: rotate(-65deg);
+    transition: all 0.75s ease-in-out;
+    scale: 0.5;
+}
+
+#stone {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    cursor: pointer;
+}
+
+#stone img {
+    width: 250px;
+    transition: all 0.75s ease-in-out;
+    scale: 0.5;
+}
+
+#bottom_logo {
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+
+#bottom_logo:hover {
+    bottom: 10%;
+}
+
+#page2 {
+    min-width: 100%;
+    height: 60vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#page2 h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 100;
+}
+
+#page2 h1 span {
+    font-weight: 1000;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#page3 {
+    height: 100vh;
+    min-width: 100%;
+    background-color: #969693;
+}
+
+#apna_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    transform: rotateY(90deg);
+    overflow: hidden;
+
+}
+
+#apna_logo img {
+    width: 130vh;
+
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagee4 svg {
+    position: absolute;
+}
+
+.banners_line_context {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 250px;
+    font-size: 20px;
+    padding-right: 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+#page5 {
+    min-width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#page5 h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 100;
+}
+
+
+#page5 h1 span {
+    font-weight: 1000;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#page6 {
+    width: 100%;
+    height: 90vh;
+    background-color: #969693;
+    display: flex;
+}
+
+#wine_side_scroller {
+    width: 30%;
+    height: 100vh;
+}
+
+#wine_side_scroller h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+#all_names_of_wines_here {
+    width: 60%;
+    height: 100vh;
+}
+
+#all_names_of_wines_here h3 span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 70px;
+    transition: all 0.75s ease-in-out;
+}
+
+#all_names_of_wines_here h3:hover {
+    font-size: 42px;
+    color: #fafafa;
+    ;
+
+
+}
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: au;
+}
+
+#page7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    display: flex;
+}

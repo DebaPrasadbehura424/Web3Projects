@@ -1,0 +1,507 @@
+
+
+/* 560 */
+
+
+@media(max-width:700px) {
+    #troller {
+        height: 5vh;
+        font-size: 20px;
+    }
+
+    .marq_con {
+
+        height: 7vh;
+
+    }
+
+
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh;
+      
+    }
+
+    #logosection {
+        height: 6vh;
+        width: fit-content;
+        padding: 0px 8px;
+       
+    }
+    #hamberger_tap_option {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+    }
+    #hamberger_tap_option h1 {
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight:1000;
+        line-height: 67px;
+        transition: all 0.75s ease-in-out;
+        overflow: hidden;
+        background-color: #969693;
+    
+    }
+    .options i {
+        font-size: 31px;
+        cursor: pointer;
+    }
+
+
+
+
+    /*  */
+    #bottle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 74%;
+        cursor: pointer;
+    
+    }
+    
+    #bottle img {
+        width: 73px;
+        transform: rotate(-15deg);
+        scale: 0.5;
+    }
+    
+    #lefthand {
+        position: absolute;
+        top: 39%;
+        left: -15%;
+        cursor: pointer;
+    }
+    
+    #lefthand img {
+        width: 420px;
+        transform: rotate(-25deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #righthand {
+        position: absolute;
+        top: 76%;
+        right: 3%;
+        cursor: pointer;
+    }
+    
+    #righthand img {
+        width: 506px;
+        transform: rotate(20deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #cone {
+        position: absolute;
+        right: 10%;
+        top: 13%;
+        cursor: pointer;
+    }
+    
+    #cone img {
+        width: 198px;
+        transform: rotate(-65deg);
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #stone {
+        position: absolute;
+        left: 20%;
+        top: 54%;
+        cursor: pointer;
+    }
+    
+    #stone img {
+        width: 250px;
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #bottom_logo {
+        position: absolute;
+        bottom: -3%;
+        right: 4%;
+        width:500px;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #page2 h1 {
+        font-size: 80px;
+        line-height: 95px;
+        font-weight: 100;
+    }
+   
+    #page4 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        color: #1E1E1E;
+        position: relative;
+    
+        text-align:center;
+    }
+    
+    #pagee4 svg {
+        position: absolute;
+        width: 400px;
+    }
+    
+    .banners_line_context {
+        display: block;
+        transform: translate(-50%-50%);
+        left: 20%;
+        top: 10%;
+        position: absolute;
+        gap: 0px;
+        font-size: 20px;
+        line-height: 382px;
+    }
+    #page5 h1 {
+        font-size: 75px;
+        line-height: 100px;
+        font-weight: 100;
+    }
+
+
+
+/*  */
+
+#wine_side_scroller h1 {
+    font-size: 47px;
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+
+
+#all_names_of_wines_here h3 span {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 33px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 70px;
+    transition: all 0.75s ease-in-out;
+}
+
+
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+@media(max-width:300px) {
+    #troller {
+        height: 4vh;
+        font-size: 11px;
+    }
+
+    .marq_con {
+
+        height: 3vh;
+
+    }
+
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh;
+      
+    }
+
+    #logosection {
+        height: 6vh;
+        width: fit-content;
+        padding: 0px 8px;
+       
+    }
+    #logosection a  {
+        font-size:8px ;
+        font-weight:bold;
+       
+    }
+    #hamberger_tap_option {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+    }
+    #hamberger_tap_option h1 {
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight:1000;
+        line-height: 67px;
+        transition: all 0.75s ease-in-out;
+        overflow: hidden;
+        background-color: #969693;
+    
+    }
+    .options i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+
+    /*  */
+    #bottle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 74%;
+        cursor: pointer;
+    
+    }
+    
+    #bottle img {
+        width: 36px;
+        transform: rotate(-15deg);
+        scale: 0.5;
+    }
+    
+    #lefthand {
+        position: absolute;
+        top: 34%;
+        left: -49%;
+        cursor: pointer;
+    }
+    
+    #lefthand img {
+        width: 306px;
+        transform: rotate(-25deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #righthand {
+        position: absolute;
+        top: 76%;
+        right: 2%;
+        cursor: pointer;
+    }
+    
+    #righthand img {
+        width: 233px;
+        transform: rotate(20deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #cone {
+        position: absolute;
+        right: 10%;
+        top: 13%;
+        cursor: pointer;
+    }
+    
+    #cone img {
+        width: 90px;
+        transform: rotate(-65deg);
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #stone {
+        position: absolute;
+        left: 6%;
+        top: 54%;
+        cursor: pointer;
+    }
+    
+    #stone img {
+        width: 151px;
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #bottom_logo {
+        position: absolute;
+        bottom: -10%;
+        right: 3%;
+        width:262px;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #page2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #page2 h1 {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 100;
+    }
+   
+    #page4 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        color: #1E1E1E;
+        position: relative;
+    
+        text-align:center;
+    }
+    
+    #pagee4 svg {
+        position: absolute;
+        width: 400px;
+    }
+    
+    .banners_line_context {
+        display: block;
+        transform: translate(-50%-50%);
+        left: 25%;
+        top: 10%;
+        position: absolute;
+        gap: 0px;
+        font-size: 8px;
+        line-height: 175px;
+    }
+    #page5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #page5 h1 {
+        font-size: 39px;
+        line-height: 50px;
+        font-weight: 100;
+    }
+
+
+
+/*  */
+#page6{
+    height:250vh;
+    display:block;
+}
+#wine_side_scroller h1 {
+    font-size: 84px;
+    
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+
+
+#all_names_of_wines_here h3 span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 35px;
+    transition: all 0.75s ease-in-out;
+}
+
+
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 134%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:50px;
+    margin-top:200px;
+    }
+
+}
+
+
+
+
+

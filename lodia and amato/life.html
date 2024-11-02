@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEX///8AAAAdHRsZGRcbGxnPz87t7e3y8vDl5eQWFhNISEjz8/MNDQr8/PwJCQUpKScuLi13d3WFhYP39/bW1tTCwsE1NTOPj4+VlZVZWVh8fHvKyslqamhjY2K8vLwhIR+bm5tQUFDe3t6zs7NDQ0Onp6Y0NDG3t7arq6twcG48PDxeXl4rKysjIyR5p6cTAAAE30lEQVR4nO3X2XaDNhQFUDQgIyY7JsZObMdzEmf4/9/rvVdiSNOurtU4fenZLwYEQgeEJCcJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/GuNm5Ci359Muv3Kxe3qT4VNvLLoT02ay2sTL+mrqopxvVxZX1HRV9vdJHDxjOb4dFpkw31/JFPssd/fy/4933wqm/Uun6excNkXkqPsqBfePmy2G265pQNZPHnNF3c7qRqVFHLh06iSzlpS71vZObzcJuKm1FYd+12nrPYz2VwpTaz1tdq6+Di09g/xzEaKVSpNPqZtQufclVpd+lBa13dx5+zpLl3CV76y3IaEekQqc7nysufVtblFwmWt7c4N+9bqciNbL3x3epaGWqpDZ9xRYfe+n5Tmkjlvz/PZqWiTZKG0P4wS6vjCn2S7S8hxtfWZJFR1XVsqpZ+a32HxVmptasUH1eYWCfdK2+ko4dToMjx5aq4uL+v9lB5pKe1unk2MRLalOVNbPulzabb6XG2poPgwXaiQsJQ3Xs3MKCG9N9PS7p623XK1Wi0/KfCcN6gv3fFd29Xp0VJS9frrCbm5k5YiyicyTlgpun9rpGCeJxub81Hq890JaejFC9q8hM2YkHqNWsyMz7uhpJkZa+KgxB9CfeWSLPfatzfop/+ckMaM2BvHCanjqYwaW16T5PqQ3Ks3F47KW+0Teuq77tOMElatMa18sfFlJwUnjE2gh2FmoYJjaYdzbphw9j0hf34ywIwTbkufSwqVUDx6n1dO0NBAJa8tJLTS0ZZ0C9snpOdF3zJV3vf3ccJH6gSrePzgh3HrlxO+mTCANG2fsLC2XiaJoUA07Dcp1ZA5CR5HSU5o2x2FvOc7tLZLeC2lZ9PB8i8S0vVhHglp1f6/Sai7dzgkpIGWy+a19u/9tVUlA7AqYkL/QLWbHX2sr/SQQkKnrWlp8r8OUcYJx/PN9rff4bpLmPbf4ZCQhhT9vt3khob9cPVjTg50IDaLEx4aikeP55mrDQlPVNn0kB/eaOJ5/56QmuPPYdNR1w5rgJsldH+T8ODjZDwkdPRpal+WMgvIkJ6VnvGB0ERJyNXLgNonfODpnE7kOVC5bwl5CaDkQ6yow9rdsO77UcIPlzTZ4lHmvOcvCeu0WB9q+pVva0hIY6blObouu1XORfmAx5Rjn7D58IYm06pLyLOBCSd2L/tLwuSBp8H3p/R0ptuq5c8DJiuqyIZVodxv169pnuKahppSP8u81Ey7Nc2mtJ+rJaHvxvLqs9qc84AqkKcQEiYnP/XpkHDF072cRyub2B+/JMys5wWb3LY832L1TU3sVoX85AsKbJ6lZB/XjLZUm4kccbwu5Y8nUza+6IICfX3SNPgYnqhjQhp+qmRIyINvXAVTxDDdfUmYpLs63ledXfJzk7pf2H/w/kk2pQ1v8bjfLOLJFxX/ImzpJ7zobPx3Q9zHPw783+LcHax8uJAPtvHYsvtTU3DhEMZd+V8J3Xd5k4W3W6cdiXXPW2t+2k0syYaPPRS6pJCi4fr1cVRjFeuaUMmQnM+iBmfdfThYd4JcMe6P7rRa7hc3GGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+5/4AYptGLKSKS+kAAAAASUVORK5CYII="
+        type="image/x-icon">
+    <title>Wines in the hreat of the Teramo Hills</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+*::selection {
+    color: rgb(204, 150, 112);
+    background-color: #fff;
+}
+
+#troller {
+    width: 100%;
+    height: 3vh;
+    background: #000;
+    flex-wrap: nowrap;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+}
+
+.marq_con {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: go 20s infinite;
+    position: fixed;
+    height: 3vh;
+    background: #000;
+    white-space: nowrap;
+    animation: go 50s infinite;
+    transition: all 0.75s ease-in-out;
+}
+
+@keyframes go {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#logosection {
+    height: 9vh;
+    width: fit-content;
+    padding: 0px 40px;
+    padding-top: 25px;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+#logosection a {
+    text-decoration: none;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 20px;
+}
+
+.options i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#hamburgur {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#hamburgur:hover #one {
+    transform: translateX(-10%);
+
+}
+
+#hamburgur:hover #three {
+    transform: translateX(-10%);
+
+}
+
+#hamburgur:hover #two {
+    transform: translateX(10%);
+
+}
+
+#hamburgur .line {
+    width: 45px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 3px;
+    transition: all 0.9s ease;
+}
+
+#hamberger_tap_option {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+
+}
+
+.about {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+
+#hamberger_tap_option h1 {
+    font-size: 85px;
+    text-align: center;
+    letter-spacing: -5px;
+    transition: all 0.75s ease-in-out;
+    overflow: hidden;
+    background-color: #969693;
+
+}
+
+#hamberger_tap_option h1:hover {
+    letter-spacing: 5px;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f2f285;
+    border-radius: 50%;
+    opacity: 50%;
+    box-shadow: 0px 0px 10px 45px #ffffff1e;
+    position: fixed;
+    opacity: 0;
+    scale: 0;
+}
+
+
+#wines {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+#tert {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+#about {
+    width: 120px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    scale: 0;
+}
+
+
+
+#bottle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+
+}
+
+#bottle img {
+    width: 100px;
+    transform: rotate(-15deg);
+    scale: 0.5;
+}
+
+#lefthand {
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    cursor: pointer;
+}
+
+#lefthand img {
+    width: 700px;
+    transform: rotate(-25deg);
+    scale: 0.5;
+    transition: all 0.75s ease-in-out;
+}
+
+#righthand {
+    position: absolute;
+    top: 60%;
+    right: -5%;
+    cursor: pointer;
+}
+
+#righthand img {
+    width: 600px;
+    transform: rotate(20deg);
+    scale: 0.5;
+    transition: all 0.75s ease-in-out;
+}
+
+#cone {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    cursor: pointer;
+}
+
+#cone img {
+    width: 200px;
+    transform: rotate(-65deg);
+    transition: all 0.75s ease-in-out;
+    scale: 0.5;
+}
+
+#stone {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    cursor: pointer;
+}
+
+#stone img {
+    width: 250px;
+    transition: all 0.75s ease-in-out;
+    scale: 0.5;
+}
+
+#bottom_logo {
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+
+#bottom_logo:hover {
+    bottom: 10%;
+}
+
+#page2 {
+    min-width: 100%;
+    height: 60vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#page2 h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 100;
+}
+
+#page2 h1 span {
+    font-weight: 1000;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#page3 {
+    height: 100vh;
+    min-width: 100%;
+    background-color: #969693;
+}
+
+#apna_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    transform: rotateY(90deg);
+    overflow: hidden;
+
+}
+
+#apna_logo img {
+    width: 130vh;
+
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagee4 svg {
+    position: absolute;
+}
+
+.banners_line_context {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 250px;
+    font-size: 20px;
+    padding-right: 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+#page5 {
+    min-width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#page5 h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 100;
+}
+
+
+#page5 h1 span {
+    font-weight: 1000;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#page6 {
+    width: 100%;
+    height: 90vh;
+    background-color: #969693;
+    display: flex;
+}
+
+#wine_side_scroller {
+    width: 30%;
+    height: 100vh;
+}
+
+#wine_side_scroller h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+#all_names_of_wines_here {
+    width: 60%;
+    height: 100vh;
+}
+
+#all_names_of_wines_here h3 span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 70px;
+    transition: all 0.75s ease-in-out;
+}
+
+#all_names_of_wines_here h3:hover {
+    font-size: 42px;
+    color: #fafafa;
+    ;
+
+
+}
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: au;
+}
+
+#page7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #969693;
+    display: flex;
+}
+
+
+
+/* 560 */
+
+
+@media(max-width:700px) {
+    #troller {
+        height: 5vh;
+        font-size: 20px;
+    }
+
+    .marq_con {
+
+        height: 7vh;
+
+    }
+
+
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh;
+      
+    }
+
+    #logosection {
+        height: 6vh;
+        width: fit-content;
+        padding: 0px 8px;
+       
+    }
+    #hamberger_tap_option {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+    }
+    #hamberger_tap_option h1 {
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight:1000;
+        line-height: 67px;
+        transition: all 0.75s ease-in-out;
+        overflow: hidden;
+        background-color: #969693;
+    
+    }
+    .options i {
+        font-size: 31px;
+        cursor: pointer;
+    }
+
+
+
+
+    /*  */
+    #bottle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 74%;
+        cursor: pointer;
+    
+    }
+    
+    #bottle img {
+        width: 73px;
+        transform: rotate(-15deg);
+        scale: 0.5;
+    }
+    
+    #lefthand {
+        position: absolute;
+        top: 39%;
+        left: -15%;
+        cursor: pointer;
+    }
+    
+    #lefthand img {
+        width: 420px;
+        transform: rotate(-25deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #righthand {
+        position: absolute;
+        top: 76%;
+        right: 3%;
+        cursor: pointer;
+    }
+    
+    #righthand img {
+        width: 506px;
+        transform: rotate(20deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #cone {
+        position: absolute;
+        right: 10%;
+        top: 13%;
+        cursor: pointer;
+    }
+    
+    #cone img {
+        width: 198px;
+        transform: rotate(-65deg);
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #stone {
+        position: absolute;
+        left: 20%;
+        top: 54%;
+        cursor: pointer;
+    }
+    
+    #stone img {
+        width: 250px;
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #bottom_logo {
+        position: absolute;
+        bottom: -3%;
+        right: 4%;
+        width:500px;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #page2 h1 {
+        font-size: 80px;
+        line-height: 95px;
+        font-weight: 100;
+    }
+   
+    #page4 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        color: #1E1E1E;
+        position: relative;
+    
+        text-align:center;
+    }
+    
+    #pagee4 svg {
+        position: absolute;
+        width: 400px;
+    }
+    
+    .banners_line_context {
+        display: block;
+        transform: translate(-50%-50%);
+        left: 20%;
+        top: 10%;
+        position: absolute;
+        gap: 0px;
+        font-size: 20px;
+        line-height: 382px;
+    }
+    #page5 h1 {
+        font-size: 75px;
+        line-height: 100px;
+        font-weight: 100;
+    }
+
+
+
+/*  */
+
+#wine_side_scroller h1 {
+    font-size: 47px;
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+
+
+#all_names_of_wines_here h3 span {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 33px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 70px;
+    transition: all 0.75s ease-in-out;
+}
+
+
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+}
+
+
+@media(max-width:400px) {
+    #troller {
+        height: 4vh;
+        font-size: 11px;
+    }
+
+    .marq_con {
+
+        height: 3vh;
+
+    }
+
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh;
+      
+    }
+
+    #logosection {
+        height: 6vh;
+        width: fit-content;
+        padding: 0px 8px;
+       
+    }
+    #logosection a  {
+        font-size:8px ;
+        font-weight:bold;
+       
+    }
+    #hamberger_tap_option {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+    }
+    #hamberger_tap_option h1 {
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight:1000;
+        line-height: 67px;
+        transition: all 0.75s ease-in-out;
+        overflow: hidden;
+        background-color: #969693;
+    
+    }
+    .options i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+
+    /*  */
+    #bottle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 74%;
+        cursor: pointer;
+    
+    }
+    
+    #bottle img {
+        width: 36px;
+        transform: rotate(-15deg);
+        scale: 0.5;
+    }
+    
+    #lefthand {
+        position: absolute;
+        top: 34%;
+        left: -49%;
+        cursor: pointer;
+    }
+    
+    #lefthand img {
+        width: 306px;
+        transform: rotate(-25deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #righthand {
+        position: absolute;
+        top: 76%;
+        right: 2%;
+        cursor: pointer;
+    }
+    
+    #righthand img {
+        width: 233px;
+        transform: rotate(20deg);
+        scale: 0.5;
+        transition: all 0.75s ease-in-out;
+    }
+    
+    #cone {
+        position: absolute;
+        right: 10%;
+        top: 13%;
+        cursor: pointer;
+    }
+    
+    #cone img {
+        width: 90px;
+        transform: rotate(-65deg);
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #stone {
+        position: absolute;
+        left: 6%;
+        top: 54%;
+        cursor: pointer;
+    }
+    
+    #stone img {
+        width: 151px;
+        transition: all 0.75s ease-in-out;
+        scale: 0.5;
+    }
+    
+    #bottom_logo {
+        position: absolute;
+        bottom: -10%;
+        right: 3%;
+        width:262px;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #page2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #page2 h1 {
+        font-size: 45px;
+        line-height: 45px;
+        font-weight: 100;
+    }
+   
+    #page4 {
+        width: 100%;
+        height: 100vh;
+        background-color: #969693;
+        color: #1E1E1E;
+        position: relative;
+    
+        text-align:center;
+    }
+    
+    #pagee4 svg {
+        position: absolute;
+        width: 400px;
+    }
+    
+    .banners_line_context {
+        display: block;
+        transform: translate(-50%-50%);
+        left: 25%;
+        top: 10%;
+        position: absolute;
+        gap: 0px;
+        font-size: 8px;
+        line-height: 175px;
+    }
+    #page5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #page5 h1 {
+        font-size: 39px;
+        line-height: 50px;
+        font-weight: 100;
+    }
+
+
+
+/*  */
+#page6{
+    height:250vh;
+    display:block;
+}
+#wine_side_scroller h1 {
+    font-size: 84px;
+    
+
+}
+
+#all_content_of_wines_here {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+
+
+#all_names_of_wines_here h3 span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#all_names_of_wines_here h3 {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #1E1E1E;
+    line-height: 35px;
+    transition: all 0.75s ease-in-out;
+}
+
+
+
+
+#all_images_of_wines_here {
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+
+#all_images_of_wines_here img {
+    width: 134%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:50px;
+    margin-top:200px;
+    }
+
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+    <div id="troller">
+        <div class="marq_con">
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+            <h3>Free shipping over 100$</h3>
+            <p>Visit our shop</p>
+
+        </div>
+    </div>
+    <div id="page1">
+        <div id="ball"></div>
+        <div id="wines">
+            <p>WINES</p>
+        </div>
+        <div id="tert">
+            <p>TERRITORY</p>
+        </div>
+        <div id="about">
+            <p>ABOUT US</p>
+        </div>
+
+        <nav>
+            <div id="logosection">
+                <a href="#" class="header__logo">
+                    <div class="header__homeSentence t-30 t-berlin t-light" id="History">History and future from the
+                        heart of the
+                        Teramo hills</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="180" height="182" viewBox="0 0 1801 182" id="logo">
+                        <g fill="#1E1E1E" fill-rule="evenodd" transform="translate(.258 .82)">
+                            <polygon
+                                points="1116.164 93.473 1113.359 100.162 1110.555 93.473 1060.931 4.581 1015.405 4.581 1015.405 177.187 1060.931 177.187 1060.931 87.218 1095.45 151.297 1131.049 151.297 1165.572 87.218 1165.572 177.187 1211.098 177.187 1211.098 4.581 1165.572 4.581">
+                            </polygon>
+                            <path
+                                d="M1319.08397,108.359932 L1340.44538,43.4175949 L1361.58924,108.359932 L1319.08397,108.359932 Z M1312.39861,4.58134152 L1248.10201,177.187104 L1294.49038,177.187104 L1304.62894,149.356154 L1376.26182,149.356154 L1386.6162,177.187104 L1432.78875,177.187104 L1368.49561,4.58134152 L1312.39861,4.58134152 Z">
+                            </path>
+                            <polygon
+                                points="1431.974 45.36 1490.661 45.36 1490.661 177.187 1536.186 177.187 1536.186 45.36 1594.873 45.36 1594.873 4.365 1431.974 4.365">
+                            </polygon>
+                            <path
+                                d="M1708.51993 137.703378C1683.49297 137.703378 1663.6406 116.775346 1663.6406 90.8833594 1663.6406 64.5614512 1683.49297 44.0650672 1708.51993 44.0650672 1733.54689 44.0650672 1753.61163 65.2089235 1753.61163 90.8833594 1753.61163 116.775346 1733.54689 137.703378 1708.51993 137.703378M1708.51993.912331672C1655.87611.912331672 1617.25396 40.397784 1617.25396 90.8833594 1617.25396 141.370662 1655.87611 180.856114 1708.51993 180.856114 1761.3813 180.856114 1800 141.370662 1800 90.8833594 1800 40.397784 1761.3813.912331672 1708.51993.912331672M61.0764961 140.010452 61.0764961 136.558992 61.0764961 42.5529172C61.0764961 27.4176041 63.4661007 14.9360643 71.4308736 4.58168684L0 4.58168684C6.63702299 13.3441456 9.29424941 26.3557495 10.0902087 39.3673534L10.356104 138.682702C9.82431342 152.75616 7.16881359 167.627305 0 177.187449L124.542597 177.187449 139.679636 125.139307C129.321806 134.169388 103.296872 140.010452 79.1332043 140.010452L61.0764961 140.010452ZM248.918923 4.5809962 177.486323 4.5809962C184.125072 13.343455 186.780572 26.3550589 187.576531 39.3666627L187.842427 138.683738C187.310636 152.757196 184.656863 167.628341 177.486323 177.186759L248.918923 177.186759C240.952423 166.830655 238.562819 151.695342 238.562819 136.558302L238.562819 42.5539531C238.562819 27.4169135 240.952423 14.9371002 248.918923 4.5809962M365.572717 139.478661 355.480781 139.478661 355.480781 136.558992 355.480781 42.5529172 366.900467 42.5529172C390.799965 42.5529172 410.450318 58.7518115 410.450318 90.0877454 409.654359 119.298244 394.783215 139.478661 365.572717 139.478661M368.494112 4.84585554 365.572717 4.84585554 365.838612 4.58168684 294.406012 4.58168684C301.043035 13.3441456 303.700261 26.3557495 304.49622 39.3673534L304.762116 138.682702C304.230325 152.75616 301.574825 167.627305 294.406012 177.187449L368.494112 177.187449C416.027213 177.187449 463.824484 144.523765 463.824484 90.3519142 463.824484 35.382377 422.931858 4.84585554 368.494112 4.84585554M570.759114 4.5809962 499.326514 4.5809962C505.965263 13.343455 508.620763 26.3550589 509.416722 39.3666627L509.682618 138.683738C509.150827 152.757196 506.497054 167.628341 499.326514 177.186759L570.759114 177.186759C562.792614 166.830655 560.40301 151.695342 560.40301 136.558302L560.40301 42.5539531C560.40301 27.4169135 562.792614 14.9371002 570.759114 4.5809962M668.05832 109.381212 685.075619 55.136844 688.268089 41.8420789 691.458833 55.9345299 708.743754 109.381212 668.05832 109.381212ZM768.067758 138.68322 727.439302 23.7007676C725.845656 17.0602915 727.70347 10.4215419 730.624865 4.58047822L652.555242 4.58047822C654.413056 9.62558258 657.866242 18.1221461 655.209016 25.8244769L614.050495 149.039324C609.535454 160.723178 604.224455 171.345177 596.257955 177.187967L656.006701 177.187967C652.819411 170.815113 650.165638 163.378677 653.085306 155.943969L656.27087 146.647993 720.534657 146.647993 723.987842 157.537614C725.579761 164.440532 722.924261 171.345177 720.002866 177.187967L789.577652 177.187967C779.221548 169.219741 773.644653 154.616219 768.067758 138.68322L768.067758 138.68322Z">
+                            </path>
+                            <polygon
+                                points="868.431 4.581 902.221 108.36 829.98 108.36 814.71 149.356 916.892 149.356 927.248 177.187 978.401 177.187 914.108 4.581">
+                            </polygon>
+                            <path
+                                d="M787.494,62.264392 C787.494,56.760014 789.716125,52.4694307 797.190546,47.6539632 L815.048696,65.2082329 C810.288479,71.4343267 806.319042,74.1778828 799.756263,74.1778828 C791.63955,74.1778828 787.494,68.4352349 787.494,62.264392 M802.556796,10.5443026 C809.162741,10.5443026 811.43321,15.4702721 811.43321,19.9766795 C811.43321,24.847398 808.789797,28.9083444 801.253219,33.5822313 C796.182215,28.4525239 793.866854,24.8076863 793.866854,20.0250241 C793.866854,14.5810768 797.102489,10.5443026 802.556796,10.5443026 M823.395046,73.4130022 L836.171833,85.9722387 L855.694418,85.9722387 L831.135361,62.3610812 L851.479805,32.4185077 L846.866349,18.2466334 L822.602539,54.1563119 L808.991808,41.068738 C818.950796,35.2052286 824.116761,29.2985544 824.116761,19.7660352 C824.116761,9.59985635 817.137873,0 802.753628,0 C787.989532,0 780.489213,9.95726107 780.489213,20.6310582 C780.489213,27.9414524 783.67305,33.6478418 789.500301,39.9947972 C776.842649,47.3638956 772.75753,54.7468067 772.75753,63.4643741 C772.75753,76.793671 782.467888,87.1221495 798.395707,87.1221495 C810.481858,87.1221495 816.680326,82.2427981 823.395046,73.4130022">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="options">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div id="hamburgur">
+                    <div class="line" id="one"></div>
+                    <div class="line" id="two"></div>
+                    <div class="line" id="three"></div>
+                </div>
+            </div>
+        </nav>
+        <div id="hamberger_tap_option">
+            <h1 class="about">ABOUT US</h1>
+            <h1 class="about">TERITORY</h1>
+            <h1 class="about">WINES</h1>
+            <h1 class="about">CONTACTS</h1>
+            <h1 class="about">SHOP</h1>
+        </div>
+
+         <div id="page_main_part">
+            <div id="bottle">
+                <img src="https://www.lidiaeamato.com/dist/wine.png" alt="wine bottole">
+            </div>
+            <div id="lefthand">
+                <img src="https://www.lidiaeamato.com/dist/hand-left.png" alt="left hand">
+            </div>
+            <div id="righthand">
+                <img src="https://www.lidiaeamato.com/dist/hand-right.png" alt="right hand">
+            </div>
+            <div id="cone">
+                <img src="https://www.lidiaeamato.com/dist/cone.png" alt="cone">
+            </div>
+
+            <div id="stone">
+                <img src="https://www.lidiaeamato.com/dist/stone.png" alt="stone">
+            </div>
+        </div>
+         <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="182" viewBox="0 0 1801 182" id="bottom_logo">
+            <g fill="#1E1E1E" fill-rule="evenodd" transform="translate(.258 .82)">
+                <polygon
+                    points="1116.164 93.473 1113.359 100.162 1110.555 93.473 1060.931 4.581 1015.405 4.581 1015.405 177.187 1060.931 177.187 1060.931 87.218 1095.45 151.297 1131.049 151.297 1165.572 87.218 1165.572 177.187 1211.098 177.187 1211.098 4.581 1165.572 4.581">
+                </polygon>
+                <path
+                    d="M1319.08397,108.359932 L1340.44538,43.4175949 L1361.58924,108.359932 L1319.08397,108.359932 Z M1312.39861,4.58134152 L1248.10201,177.187104 L1294.49038,177.187104 L1304.62894,149.356154 L1376.26182,149.356154 L1386.6162,177.187104 L1432.78875,177.187104 L1368.49561,4.58134152 L1312.39861,4.58134152 Z">
+                </path>
+                <polygon
+                    points="1431.974 45.36 1490.661 45.36 1490.661 177.187 1536.186 177.187 1536.186 45.36 1594.873 45.36 1594.873 4.365 1431.974 4.365">
+                </polygon>
+                <path
+                    d="M1708.51993 137.703378C1683.49297 137.703378 1663.6406 116.775346 1663.6406 90.8833594 1663.6406 64.5614512 1683.49297 44.0650672 1708.51993 44.0650672 1733.54689 44.0650672 1753.61163 65.2089235 1753.61163 90.8833594 1753.61163 116.775346 1733.54689 137.703378 1708.51993 137.703378M1708.51993.912331672C1655.87611.912331672 1617.25396 40.397784 1617.25396 90.8833594 1617.25396 141.370662 1655.87611 180.856114 1708.51993 180.856114 1761.3813 180.856114 1800 141.370662 1800 90.8833594 1800 40.397784 1761.3813.912331672 1708.51993.912331672M61.0764961 140.010452 61.0764961 136.558992 61.0764961 42.5529172C61.0764961 27.4176041 63.4661007 14.9360643 71.4308736 4.58168684L0 4.58168684C6.63702299 13.3441456 9.29424941 26.3557495 10.0902087 39.3673534L10.356104 138.682702C9.82431342 152.75616 7.16881359 167.627305 0 177.187449L124.542597 177.187449 139.679636 125.139307C129.321806 134.169388 103.296872 140.010452 79.1332043 140.010452L61.0764961 140.010452ZM248.918923 4.5809962 177.486323 4.5809962C184.125072 13.343455 186.780572 26.3550589 187.576531 39.3666627L187.842427 138.683738C187.310636 152.757196 184.656863 167.628341 177.486323 177.186759L248.918923 177.186759C240.952423 166.830655 238.562819 151.695342 238.562819 136.558302L238.562819 42.5539531C238.562819 27.4169135 240.952423 14.9371002 248.918923 4.5809962M365.572717 139.478661 355.480781 139.478661 355.480781 136.558992 355.480781 42.5529172 366.900467 42.5529172C390.799965 42.5529172 410.450318 58.7518115 410.450318 90.0877454 409.654359 119.298244 394.783215 139.478661 365.572717 139.478661M368.494112 4.84585554 365.572717 4.84585554 365.838612 4.58168684 294.406012 4.58168684C301.043035 13.3441456 303.700261 26.3557495 304.49622 39.3673534L304.762116 138.682702C304.230325 152.75616 301.574825 167.627305 294.406012 177.187449L368.494112 177.187449C416.027213 177.187449 463.824484 144.523765 463.824484 90.3519142 463.824484 35.382377 422.931858 4.84585554 368.494112 4.84585554M570.759114 4.5809962 499.326514 4.5809962C505.965263 13.343455 508.620763 26.3550589 509.416722 39.3666627L509.682618 138.683738C509.150827 152.757196 506.497054 167.628341 499.326514 177.186759L570.759114 177.186759C562.792614 166.830655 560.40301 151.695342 560.40301 136.558302L560.40301 42.5539531C560.40301 27.4169135 562.792614 14.9371002 570.759114 4.5809962M668.05832 109.381212 685.075619 55.136844 688.268089 41.8420789 691.458833 55.9345299 708.743754 109.381212 668.05832 109.381212ZM768.067758 138.68322 727.439302 23.7007676C725.845656 17.0602915 727.70347 10.4215419 730.624865 4.58047822L652.555242 4.58047822C654.413056 9.62558258 657.866242 18.1221461 655.209016 25.8244769L614.050495 149.039324C609.535454 160.723178 604.224455 171.345177 596.257955 177.187967L656.006701 177.187967C652.819411 170.815113 650.165638 163.378677 653.085306 155.943969L656.27087 146.647993 720.534657 146.647993 723.987842 157.537614C725.579761 164.440532 722.924261 171.345177 720.002866 177.187967L789.577652 177.187967C779.221548 169.219741 773.644653 154.616219 768.067758 138.68322L768.067758 138.68322Z">
+                </path>
+                <polygon
+                    points="868.431 4.581 902.221 108.36 829.98 108.36 814.71 149.356 916.892 149.356 927.248 177.187 978.401 177.187 914.108 4.581">
+                </polygon>
+                <path
+                    d="M787.494,62.264392 C787.494,56.760014 789.716125,52.4694307 797.190546,47.6539632 L815.048696,65.2082329 C810.288479,71.4343267 806.319042,74.1778828 799.756263,74.1778828 C791.63955,74.1778828 787.494,68.4352349 787.494,62.264392 M802.556796,10.5443026 C809.162741,10.5443026 811.43321,15.4702721 811.43321,19.9766795 C811.43321,24.847398 808.789797,28.9083444 801.253219,33.5822313 C796.182215,28.4525239 793.866854,24.8076863 793.866854,20.0250241 C793.866854,14.5810768 797.102489,10.5443026 802.556796,10.5443026 M823.395046,73.4130022 L836.171833,85.9722387 L855.694418,85.9722387 L831.135361,62.3610812 L851.479805,32.4185077 L846.866349,18.2466334 L822.602539,54.1563119 L808.991808,41.068738 C818.950796,35.2052286 824.116761,29.2985544 824.116761,19.7660352 C824.116761,9.59985635 817.137873,0 802.753628,0 C787.989532,0 780.489213,9.95726107 780.489213,20.6310582 C780.489213,27.9414524 783.67305,33.6478418 789.500301,39.9947972 C776.842649,47.3638956 772.75753,54.7468067 772.75753,63.4643741 C772.75753,76.793671 782.467888,87.1221495 798.395707,87.1221495 C810.481858,87.1221495 816.680326,82.2427981 823.395046,73.4130022">
+                </path>
+            </g>
+        </svg>  
+    </div>
+     <div id="page2">
+        <p>A land,its wines</p>
+        <h1 class="future">History and <span>FUTURE</span></h1>
+        <h1 class="future">from the<span>HEART</span> of </h1>
+        <h1 class="future">the <span>Teramo</span> <span>Hills</span></h1>
+
+    </div>
+  <div id="page3">
+        <div id="apna_logo">
+            <img src="https://www.lidiaeamato.com/wp-content/uploads/2024/02/Gruppo-Controguerra-F-1-scaled.jpg"
+                alt="wines" id="doublewines">
+        </div>
+    </div>
+     <div id="page4">
+        <svg version="1.1" id="rosette-svg" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1345 671"
+            style="enable-background:new 0 0 1345 671;" xml:space="preserve" width="60%" height="80%">
+            <g>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 846, 848; stroke-dashoffset: 0;"
+                    d="M80.4,601.3c-7.3,8.7-32.5,2.5-32.9-19.6c-0.3-16.6,13.8-33.5,37-31.1c21.5,2.2,31.1,19,36.1,34.7
+              c10.2,31.9-11.1,67-48.6,67c-52,0-76.8-63.7-62.1-132c15.7-72.7,65.2-114.7,110.3-99.2c32,11,38.8,61.7,17.1,86.6
+              c-10.6,12.2-27,20.3-48.1,15.7S61.3,494.7,68,479.7c8.9-20,34.8-20.3,37.6-4.1"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1037, 1039; stroke-dashoffset: 0;"
+                    d="M481.5,526.3c0,0,21.4-14.4,35.1,0.5c16.4,17.8,12.5,35.3-0.4,48.2s-36.8,13.1-51.2,0.8
+              c-41.7-35.7-52.7-171-124.7-238.9c-40.8-38.4-101.1-24.6-126.2,15.7c-18.2,29.1-15.4,74.5,15.9,102.6c29.7,26.7,78.2,25.5,95,4.7
+              c31.2-38.7-6.9-100.5-47-87.4c-51.4,16.8-23.8,72.8,5.5,60.5c8.6-3.6,13.8-16.3,9.8-22.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 781, 783; stroke-dashoffset: 0;"
+                    d="M228.1,279.1c1.9-10.3-17.9-26.8-34.1-15.5c-12.1,8.5-16.7,30.6-0.5,44.7c16.2,14.2,33.2,15.6,47.5,11.4
+              c29.2-8.7,42.2-44.1,18.7-73.1c-25.1-31-89.1-29.8-132.7,20.1c-43.6,49.9-36.1,116-2.1,136.7c32,19.4,65.2-0.7,69.9-30.8
+              c2.3-14.8-1.4-31.4-17.6-45.5s-37.5-6.7-44.3,6.5c-9,17.6,10,34.9,19.9,31.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1013, 1015; stroke-dashoffset: 0;"
+                    d="M527.1,482c0,0-14.2,16-1.7,32.5s31.3,16.7,45.5,5.2c14.2-11.6,17-34.9,6.5-49.9
+              c-30.2-43.5-159.3-66.7-219.7-140.7c-37.2-45.7-12.2-98.9,29.6-121.2c33.6-17.9,74.4-4.3,97.2,25.2c23.6,30.6,19.8,73.6-6.8,92.3
+              c-47.9,33.6-91.9-20.4-79.2-54c19-50.5,77.6-16.9,58,11.1c-5.4,7.6-17,9.2-22.4,4.3"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 773, 775; stroke-dashoffset: 0;"
+                    d="M309.2,212.7c-10.4,0.7-24.6-20.8-11.5-35.6c9.8-11.1,32.3-13.1,44.5,4.6s11.8,34.7,5.9,48.5
+              c-12,28.1-48.5,32.6-74.7,5.9c-27.9-28.4-17.2-89.9,34.9-125.2c54.9-37.2,116.9-23,133.6,13.1c15.7,34-5.6,65-36.1,66.3
+              c-14.9,0.6-31-5-43.2-22.7s-2.4-38,11.5-43.2c18.5-6.9,33.6,13.9,29.3,23.4"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1021, 1023; stroke-dashoffset: 0;"
+                    d="M641.6,437.6c0,0,22.3-2.1,23.8,22.2c1.5,24.3-13,33.5-31.3,34.6c-18.2,1.2-35.2-13.5-37.8-31.6
+              c-7.4-52.5,71.5-157.2,65.5-252.6c-3.7-58.8-58.2-80.8-104.1-68.8c-35.2,9.2-58.7,40.6-56.1,81.2c2.6,40.6,35.2,69.7,67.5,66.7
+              c49.8-4.6,69.8-76.5,24.4-95.1c-46.1-19-66.9,40.1-37.5,49.1c10,3.1,21.4-5.4,22.1-12.6"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 760, 762; stroke-dashoffset: 0;"
+                    d="M618,96.1c8-6.3,4.1-30.8-15.2-32.9c-14.5-1.5-32.2,11.7-29.3,32.3c2.8,20.6,14.4,32.4,27.8,38.3
+              c27.3,12.1,59.8-5.4,61.2-41.5c1.5-38.4-46.6-78-111.2-69.2s-101.6,60-89.9,96.6c11,34.4,48.4,42.5,71.5,23.5
+              c11.3-9.3,19.3-23.8,16.5-44.3s-23.4-28.6-37-23.2c-18,7.1-15.2,31.8-5.8,35.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 503, 505; stroke-dashoffset: 0;"
+                    d="M672,7.5L672,510.1"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 520, 522; stroke-dashoffset: 0;"
+                    d="M206,174.1L555.8,558.5"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 509, 511; stroke-dashoffset: 0;"
+                    d="M422.7,49.8L609.3,522.3"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 528, 530; stroke-dashoffset: 0;"
+                    d="M51.7,376.5L522.6,615"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 389, 391; stroke-dashoffset: 0;"
+                    d="M671.2,662.1C605,662,562,614.5,568.9,575.2c6.4-36.9,41.6-50.3,67.4-34c12.6,8,22.7,21.7,22.6,43.3
+              c0,21.5-19.7,32.6-34,29c-19.2-4.8-19.7-30.5-10.7-35.9"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 214, 216; stroke-dashoffset: 0;"
+                    d="M518.7,632c11-69,75.4-121.9,153.3-121.9"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 924, 926; stroke-dashoffset: 0;"
+                    d="M672,7.5C327.2,7.5,44.2,236.8,7.8,531.3"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1088, 1090; stroke-dashoffset: 0;"
+                    d="M478.8,631.6c-8.9,17,4.3,28.9,16.8,28c14.6-1,21.8-12.8,23.1-27.6c1.1-12-15.5-22.1-21.7-25.2
+              c-58.8-29.6-144.4,64.1-261,59.5c-21.8-0.9-62.4-9.5-87.5-39.5c-17.9-21.5-27.9-55.6-16.9-88.6c12.1-36.1,49.1-67,97.2-58.5
+              s77,52.8,67.1,85.2c-14.8,48.4-89.9,51.3-105.6,14.7c-4.1-9.6-4.8-20.6-1.6-29.7c8.3-23.9,38.4-26.6,51.9-14.4
+              c9.5,8.6,9.2,24.4-4,30.5"></path>
+            </g>
+            <g>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 846, 848; stroke-dashoffset: 0;"
+                    d="M1263.6,601.3c7.3,8.7,32.5,2.5,32.9-19.6c0.3-16.6-13.8-33.5-37-31.1c-21.5,2.2-31.1,19-36.1,34.7
+              c-10.2,31.9,11.1,67,48.6,67c52,0,76.8-63.7,62.1-132c-15.7-72.7-65.2-114.7-110.3-99.2c-32,11-38.8,61.7-17.1,86.6
+              c10.6,12.2,27,20.3,48.1,15.7c21.1-4.6,27.9-28.6,21.2-43.7c-8.9-20-34.8-20.3-37.6-4.1"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1037, 1039; stroke-dashoffset: 0;"
+                    d="M862.4,526.3c0,0-21.4-14.4-35.1,0.5c-16.4,17.8-12.5,35.3,0.4,48.2s36.8,13.1,51.2,0.8
+              c41.7-35.7,52.7-171,124.7-238.9c40.8-38.4,101.1-24.6,126.2,15.7c18.2,29.1,15.4,74.5-15.9,102.6c-29.7,26.7-78.2,25.5-95,4.7
+              c-31.2-38.7,6.9-100.5,47-87.4c51.4,16.8,23.8,72.8-5.5,60.5c-8.6-3.6-13.8-16.3-9.8-22.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 781, 783; stroke-dashoffset: 0;"
+                    d="M1115.9,279.1c-1.8-10.3,17.9-26.8,34.1-15.5c12.2,8.5,16.7,30.6,0.5,44.7c-16.2,14.2-33.2,15.6-47.5,11.4
+              c-29.2-8.7-42.2-44.1-18.7-73.1c25.1-31,89.1-29.8,132.7,20.1c43.6,49.9,36.1,116,2.1,136.7c-32,19.4-65.2-0.7-69.9-30.8
+              c-2.3-14.8,1.4-31.4,17.7-45.5s37.5-6.7,44.3,6.5c9,17.6-10,34.9-19.9,31.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1013, 1015; stroke-dashoffset: 0;"
+                    d="M816.8,482c0,0,14.2,16,1.7,32.5c-12.9,17-31.3,16.7-45.5,5.2c-14.2-11.6-17-34.9-6.5-49.9
+              c30.2-43.5,159.3-66.7,219.7-140.7c37.2-45.7,12.2-98.9-29.6-121.2c-33.6-17.9-74.4-4.3-97.2,25.2c-23.6,30.6-19.8,73.6,6.8,92.3
+              c47.9,33.6,91.9-20.4,79.2-54c-19-50.5-77.6-16.9-58,11.1c5.4,7.6,17,9.2,22.4,4.3"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 773, 775; stroke-dashoffset: 0;"
+                    d="M1034.7,212.7c10.4,0.7,24.6-20.8,11.5-35.6c-9.8-11.1-32.3-13.1-44.5,4.6s-11.8,34.7-5.9,48.5
+              c12,28.1,48.5,32.6,74.7,5.9c27.9-28.4,17.2-89.9-34.9-125.2c-54.9-37.2-116.9-23-133.6,13.1c-15.7,34,5.6,65,36.1,66.3
+              c14.9,0.6,31-5,43.3-22.7c12.2-17.7,2.4-38-11.4-43.2c-18.5-6.9-33.6,13.9-29.3,23.4"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1021, 1023; stroke-dashoffset: 0;"
+                    d="M702.4,437.6c0,0-22.3-2.1-23.8,22.2c-1.5,24.3,13,33.5,31.3,34.6c18.2,1.2,35.2-13.5,37.8-31.6
+              c7.4-52.5-71.5-157.2-65.5-252.6c3.7-58.8,58.2-80.8,104.1-68.8c35.2,9.2,58.7,40.6,56.1,81.2c-2.6,40.6-35.2,69.7-67.5,66.7
+              c-49.8-4.6-69.8-76.5-24.4-95.1c46.1-19,66.9,40.1,37.5,49.1c-10,3.1-21.4-5.4-22.1-12.6"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 760, 762; stroke-dashoffset: 0;"
+                    d="M726,96.1c-8-6.3-4.1-30.8,15.2-32.9c14.5-1.5,32.2,11.7,29.3,32.3c-2.8,20.6-14.4,32.4-27.8,38.3
+              c-27.3,12.1-59.8-5.4-61.2-41.5c-1.5-38.4,46.6-78,111.2-69.2s101.6,60,89.9,96.6c-11,34.4-48.4,42.5-71.5,23.5
+              c-11.3-9.3-19.3-23.8-16.5-44.3s23.4-28.6,37-23.2c18,7.1,15.2,31.8,5.8,35.7"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 520, 522; stroke-dashoffset: 0;"
+                    d="M1138,174.1L788.2,558.5"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 509, 511; stroke-dashoffset: 0;"
+                    d="M921.3,49.8L734.6,522.3"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 528, 530; stroke-dashoffset: 0;"
+                    d="M1292.2,376.5L821.3,615"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 389, 391; stroke-dashoffset: 0;"
+                    d="M672.7,662.1c66.3-0.1,109.2-47.6,102.4-86.8c-6.4-36.9-41.6-50.3-67.4-34c-12.6,8-22.7,21.7-22.6,43.3
+              c0,21.5,19.7,32.6,34,29c19.2-4.8,19.7-30.5,10.7-35.9"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 214, 216; stroke-dashoffset: 0;"
+                    d="M825.2,632c-11-69-75.4-121.9-153.3-121.9"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 924, 926; stroke-dashoffset: 0;"
+                    d="M672,7.5c344.8,0,627.8,229.2,664.2,523.8"></path>
+                <path
+                    style="fill: none; stroke: rgb(29, 29, 27); stroke-width: 1.2; stroke-linecap: round; stroke-miterlimit: 10; stroke-dasharray: 1088, 1090; stroke-dashoffset: 0;"
+                    d="M865.1,631.6c8.9,17-4.3,28.9-16.8,28c-14.6-1-21.8-12.8-23.1-27.6c-1.1-12,15.5-22.1,21.7-25.2
+              c58.8-29.6,144.3,64.1,261.1,59.5c21.8-0.9,62.4-9.5,87.5-39.5c17.9-21.5,27.9-55.6,16.9-88.6c-12.1-36.1-49.1-67-97.2-58.5
+              c-47.4,8.4-77,52.8-67.1,85.2c14.8,48.4,89.9,51.3,105.6,14.7c4.1-9.6,4.8-20.6,1.6-29.7c-8.3-23.9-38.4-26.6-51.9-14.4
+              c-9.5,8.6-9.2,24.4,4,30.5"></path>
+            </g>
+        </svg>
+        <div class="banners_line_context">
+            <h1>CONTROGUERRA</h1>
+            <h1>A LAND</h1>
+            <h1>IT'S WINES</h1>
+        </div>
+    </div>
+    <div id="page5">
+        <p>THE TERMARO WINES</p>
+        <h1 class="joy_text">nuances of a</h1>
+        <h1 class="joy_text"><span>TERRITORY</span> where</h1>
+        <h1 class="joy_text">the <span>SEA</span> and the</h1>
+        <h1 class="joy_text"><span>MOUNTAINS</span>meet</h1>
+    </div>
+
+  <div id="page6" >
+<div id="wine_side_scroller">
+    <h1 id="big_wine_toto">WINES</h1>
+</div>
+<div id="all_content_of_wines_here">
+<div id="all_names_of_wines_here">
+    <h3 class="photochange">PARESENA <span>Brut</span></h3>
+    <h3 class="photochange">ROSATO <span>Brut</span></h3>
+    <h3 class="photochange">TREBBIANO D'ABRUZZO <span>DOC</span></h3>
+    <h3 class="photochange">MONTEPUALCIANO D'ABRUZZO <span>DOC senza</span></h3>
+    <h3 class="photochange">ROOSO <span>controgueera DOC</span></h3>
+    <h3 class="photochange">PECRIANO <span>controgueera DOC</span></h3>
+</div>
+<div id="all_images_of_wines_here">
+    <img src="" alt="click on contant" id="winesall">
+</div>  
+
+
+
+
+
+
+</div>
+    </div>
+
+
+<div id="page7"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="
+https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js
+"></script>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+<script>
+
+
+
+let history = document.getElementById('History');
+let logo = document.getElementById('logo');
+gsap.to(history, {
+    y: 100,
+    scrollTrigger: {
+        trigger: "#logosection",
+        start: "top -4%",
+        end: "top -5%",
+        scrub: 2,
+    }
+})
+gsap.to(logo, {
+    y: -100,
+    scrollTrigger: {
+        trigger: "#logosection",
+        start: "top -4%",
+        end: "top -5%",
+        scrub: 2,
+    }
+})
+let bottleimage = document.querySelector('#bottle img');
+let rightimage = document.querySelector('#righthand img');
+let leftimage = document.querySelector('#lefthand img');
+let cone = document.querySelector('#cone img');
+let stone = document.querySelector('#stone img');
+
+window.addEventListener("load", () => {
+    gsap.to(bottleimage, {
+        duration: 1,
+        scale: 2,
+        transform: "rotate(-15deg)"
+    })
+});
+window.addEventListener("load", () => {
+    gsap.to(rightimage, {
+        duration: 1,
+        scale: 1,
+        transform: "rotate(-8deg)"
+    })
+});
+window.addEventListener("load", () => {
+    gsap.to(leftimage, {
+        duration: 1,
+        scale: 1,
+        transform: "rotate(-15deg)"
+    })
+});
+window.addEventListener("load", () => {
+    gsap.to(cone, {
+        duration: 1,
+        scale: 1,
+    })
+});
+window.addEventListener("load", () => {
+    gsap.to(stone, {
+        duration: 1,
+        scale: 1,
+    })
+});
+
+let wines = document.getElementById('wines');
+let tert = document.getElementById('tert');
+let aboutus = document.getElementById('about');
+let page1 = document.getElementById('page1');
+let ball = document.getElementById('ball');
+
+page1.addEventListener('mouseenter', function () {
+    gsap.to(ball, {
+        opacity: 1,
+        scale: 1,
+    })
+})
+
+page1.addEventListener('mousemove', function (dets) {
+    gsap.to(ball, {
+        left: dets.x,
+        top: dets.y
+    })
+})
+page1.addEventListener('mousemove', function (win) {
+    gsap.to(wines, {
+        left: win.x,
+        top: win.y
+    })
+})
+
+bottleimage.addEventListener('mouseenter', function () {
+    rightimage.style.opacity = "30%",
+        leftimage.style.opacity = "30%",
+        cone.style.opacity = "30%",
+        stone.style.opacity = "30%",
+        gsap.to(wines, {
+            opacity: 1,
+            scale: 1,
+        })
+})
+bottleimage.addEventListener('mouseleave', function () {
+    rightimage.style.opacity = "100%",
+        leftimage.style.opacity = "100%",
+        cone.style.opacity = "100%",
+        stone.style.opacity = "100%",
+        gsap.to(wines, {
+            opacity: 0,
+            scale: 0,
+        })
+})
+
+page1.addEventListener('mousemove', function (ter) {
+    gsap.to(tert, {
+        left: ter.x,
+        top: ter.y
+    })
+})
+
+rightimage.addEventListener('mouseenter', function () {
+    bottleimage.style.opacity = "30%",
+        leftimage.style.opacity = "30%",
+        cone.style.opacity = "30%",
+        stone.style.opacity = "30%",
+        rightimage.style.transform = "rotate(18deg)"
+    gsap.to(tert, {
+        opacity: 1,
+        scale: 1,
+    })
+})
+rightimage.addEventListener('mouseleave', function () {
+    bottleimage.style.opacity = "100%",
+        leftimage.style.opacity = "100%",
+        cone.style.opacity = "100%",
+        stone.style.opacity = "100%",
+        rightimage.style.transform = "rotate(20deg)",
+        gsap.to(tert, {
+            opacity: 0,
+            scale: 0,
+        })
+})
+
+leftimage.addEventListener('mouseenter', function () {
+    bottleimage.style.opacity = "30%",
+        rightimage.style.opacity = "30%",
+        cone.style.opacity = "30%",
+        stone.style.opacity = "30%",
+        leftimage.style.transform = "rotate(-20deg)",
+        gsap.to(tert, {
+            opacity: 1,
+            scale: 1,
+        })
+})
+leftimage.addEventListener('mouseleave', function () {
+    bottleimage.style.opacity = "100%",
+        rightimage.style.opacity = "100%",
+        cone.style.opacity = "100%",
+        stone.style.opacity = "100%",
+        leftimage.style.transform = "rotate(-25deg)",
+        gsap.to(tert, {
+            opacity: 0,
+            scale: 0,
+        })
+})
+
+page1.addEventListener('mousemove', function (abt) {
+    gsap.to(aboutus, {
+        left: abt.x,
+        top: abt.y
+    })
+})
+
+cone.addEventListener('mouseenter', function () {
+    bottleimage.style.opacity = "30%",
+        rightimage.style.opacity = "30%",
+        leftimage.style.opacity = "30%",
+        stone.style.opacity = "30%",
+        cone.style.transform = "rotate(-70deg)",
+        gsap.to(aboutus, {
+            opacity: 1,
+            scale: 1,
+        })
+})
+cone.addEventListener('mouseleave', function () {
+    bottleimage.style.opacity = "100%",
+        rightimage.style.opacity = "100%",
+        leftimage.style.opacity = "100%",
+        stone.style.opacity = "100%",
+        cone.style.transform = "rotate(-65deg)",
+        gsap.to(aboutus, {
+            opacity: 0,
+            scale: 0,
+        })
+})
+
+stone.addEventListener('mouseenter', function () {
+    bottleimage.style.opacity = "30%",
+        rightimage.style.opacity = "30%",
+        leftimage.style.opacity = "30%",
+        cone.style.opacity = "30%",
+        stone.style.transform = "rotate(-10deg)",
+        gsap.to(aboutus, {
+            opacity: 1,
+            scale: 1,
+        })
+})
+stone.addEventListener('mouseleave', function () {
+    bottleimage.style.opacity = "100%",
+        rightimage.style.opacity = "100%",
+        leftimage.style.opacity = "100%",
+        cone.style.opacity = "100%",
+        stone.style.transform = "rotate(0deg)",
+        gsap.to(aboutus, {
+            opacity: 0,
+            scale: 0,
+        })
+})
+// 
+const about = new SplitType('.about');
+// 
+let ham = document.getElementById('hamburgur');
+let hamtap = document.querySelectorAll('.about');
+let one = document.getElementById('one');
+let two = document.getElementById('two');
+let third = document.getElementById('three');
+let ibrow = "take";
+function show() {
+    hamtap.forEach((elme) => {
+        elme.classList.toggle('active');
+    })
+
+    if (ibrow == "take") {
+        two.style.opacity = 0;
+        bottleimage.style.display = "none";
+        leftimage.style.display = "none";
+        stone.style.display = "none";
+        one.style.transform = " translateY(14px)  rotate(-45deg)";
+        third.style.transform = "  translateY(-6px)   rotate(45deg)";
+        ibrow = "took";
+    } else {
+        bottleimage.style.display = "block";
+        leftimage.style.display = "block";
+        stone.style.display = "block";
+        two.style.opacity = 1;
+        one.style.transform = "rotate(0deg)";
+        third.style.transform = "rotate(0deg)";
+        ibrow = "take";
+    }
+
+}
+ham.addEventListener('click', () => {
+    show();
+    gsap.from('.char', {
+        y: 100,
+        stagger: 0.03,
+        opacity: 0,
+        transform: "rotateX(90deg)",
+    })
+})
+let bottomlogo = document.getElementById('bottom_logo');
+gsap.to(bottomlogo, {
+    y: 100,
+    position: "fixed",
+    duration: 1,
+    scrollTrigger: {
+        trigger: "#righthand img",
+        start: "top 60%",
+        end: "top 0%",
+        scrub: 1,
+
+
+    }
+})
+// 
+const future = new SplitType('.future');
+// 
+gsap.from(' .future .char', {
+    y: 100,
+    stagger: 0.01,
+    opacity: 0,
+    transform: "rotateX(90deg)",
+    scrollTrigger: {
+        trigger: "#page2",
+        start: "top 70%",
+        end: "top 30%",
+        scrub: 5,
+    }
+})
+gsap.to("#apna_logo", {
+    transform: "rotateY(0deg)",
+    scrollTrigger: {
+        trigger: "#page3",
+        strat: "top 20%",
+        end: "top 0%",
+        scrub: "3",
+    }
+})
+
+
+const joytext = new SplitType('.joy_text');
+
+gsap.from(".joy_text .char", {
+    opacity: 0.2,
+    stagger: 0.5,
+    duration: 1.3,
+    scrollTrigger: {
+        trigger: "#page5",
+        start: "top 30%",
+        end: "top 0%",
+        scrub: 5
+    }
+})
+
+
+let t1=gsap.timeline();
+t1.to('#big_wine_toto',{
+
+y:450,
+scrollTrigger:{
+    trigger:"#page6",
+    start:"top 30%",
+    end:"top 0%",
+    scrub:5,
+}
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let photochange = document.querySelectorAll('.photochange');
+function gotochange(cab) {
+
+
+    if (cab == 0) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Rosato-4.jpg";
+    }
+
+
+    if (cab == 1) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Trebbiano-DOC-1.jpg";
+    }
+    if (cab == 2) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Montepulciano-DOC-Senza-Solfiti-1.jpg";
+    }
+    if (cab == 3) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Montepulciano-DOC-Senza-Solfiti-1.jpg";
+    }
+
+
+    if (cab == 4) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Montepulciano-DOC-1.jpg";
+    }
+    if (cab == 5) {
+        document.getElementById("winesall").src = "https://www.lidiaeamato.com/wp-content/uploads/2023/03/Montepulciano-DOC-1.jpg";
+    }
+
+
+}
+
+photochange.forEach((touch, key) => {
+    touch.addEventListener('mouseenter', () => {
+        let meme = key;
+        gotochange(meme);
+        gsap.from("#winesall", {
+            opacity: 0,
+            y: -100,
+            duration: 1,
+            scrub: 5,
+            transform: "rotateY(90deg)",
+        })
+
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+    console.log(e)
+})
+
+function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+
+
+
+
+</script>
+
+</html>
