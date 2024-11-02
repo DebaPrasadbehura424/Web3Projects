@@ -1,0 +1,277 @@
+@media(max-width:1100px) {
+
+
+
+    .main_banner_of_site h1 {
+        font-size: 2.8vh;
+        text-align: center;
+    }
+
+    .main_banner_scroll_section p {
+        text-align: center;
+        font-size: 1.6vh;
+    }
+
+    .logosection img {
+        position: absolute;
+        top: -10%;
+        left: -5%;
+        width: 100px;
+    }
+
+    .options {
+        display: none;
+    }
+
+    #lines {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6px;
+        position: absolute;
+        right: 5%;
+    }
+
+    .stroke {
+        width: 40px;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .options_out {
+        display: block;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        height: 550px;
+        line-height: 80px;
+        text-align: center;
+        border: 1px solid #000;
+        position: absolute;
+        transform: translateY(-140%) scale(0, 1);
+        transition: all 0.75s ease;
+        overflow: hidden;
+        border-radius: 50%;
+        z-index: 999;
+    }
+
+    .options_out::after {
+        content: '';
+        position: absolute;
+        width: 99%;
+        height: 545px;
+        border-radius: 50%;
+        opacity: 50%;
+        top: 0%;
+        left: 0%;
+        border: 2px solid #fff;
+        transition: 0.75s ease;
+        transform: scale(0, 1);
+    }
+
+    .options_out:hover:after {
+        transform: scale(1, 1);
+        border-radius: 0%;
+    }
+
+    .options_out li a {
+        text-decoration: none;
+        color: rgb(255, 247, 247);
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        position: relative;
+    }
+
+    .options_out li a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0.175rem;
+        left: 0%;
+        bottom: 0%;
+        transform: scale(0, 1);
+        background-color: #fff;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .options_out li a:hover:after {
+        transform: scale(1, 1);
+    }
+
+    /* page1 */
+    #page1 {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+        flex-direction: column;
+
+    }
+
+    #first_section {
+        width: 80%;
+        height: 22vh;
+        overflow: hidden;
+        padding: 50px 10px;
+    }
+
+    #scroll_section {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        transition: all 0.75s ease-in-out;
+    }
+
+    #scroll_section img {
+        width: 100%;
+        height: 154px;
+        z-index: -1;
+    }
+
+    .dots {
+        width: 200px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: -17px;
+    }
+    .page2_contant_section {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .main_row {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        padding: 10px 20px;
+        gap: 40px;
+    }
+
+    .first_row {
+        display: flex;
+        width: 90%;
+        height: 70vh;
+        position: relative;
+        box-shadow: 0px 5px 10px 0px #000;
+        border-radius: 10px;
+        margin-top: 20px;
+        overflow: hidden;
+
+    }
+
+    .first_row img {
+        height: 30vh;
+        position: absolute;
+        top: 0%;
+        z-index: -1;
+    }
+
+    .first_row h2 {
+        position: absolute;
+        font-size: 15px;
+        bottom: 1%;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .first_row button {
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        border: 1px solid #f00;
+        background-color: #f00;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #fff;
+
+        bottom: 10%;
+    }
+
+    .secimage {
+        width: 40vh;
+    }
+
+
+
+    #first_row_first_content p {
+        padding: 1px 10px;
+        color: #000000;
+        font-size: 12px;
+        font-family: "poppins", sans-serif
+    }
+
+    #sec_sec_content_links {
+        z-index: 99;
+        position: absolute;
+        width: 100%;
+        height: 45vh;
+        top: 0%;
+        text-align: justify;
+        background-color: #fff;
+        border-radius: 10px;
+        transform: translateY(-100%);
+        transition: all 0.75s ease-in-out;
+
+    }
+
+    #sec_sec_content_links ul {
+        padding: 40px 50px;
+        list-style: none;
+    }
+
+    #sec_sec_content_links ul li a {
+        text-decoration: none;
+        color: #000000;
+        line-height: 32px;
+        font-size: 11px;
+        font-family: "Poppins", sans-serif;
+    }
+
+}
+@media((max-width:1100px)and (min-width:800px)){
+    /* https://github.com/Darkdevkumar/koustuvcollege.git */
+    /* https://github.com/Darkdevkumar/Growupcompany.git */
+    https://github.com/Darkdevkumar
+    #first_section {
+        width: 55%;
+        height: 22vh;
+        overflow: hidden;
+        padding: 50px 10px;
+    }
+
+    #scroll_section {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        transition: all 0.75s ease-in-out;
+    }
+
+    #scroll_section img {
+        height: 280px;
+        width: 100%;
+        z-index: -1;
+    }
+    .logosection img {
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        width: 180px;
+    }
+    .options_out {
+        background-color: rgb(0, 0, 0);
+        height: 700px;
+        line-height: 80px;
+        font-weight: bolder;
+      
+       
+    }
+}

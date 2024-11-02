@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 25vh;
+    background-color: #000;
+}
+
+.firstsectionnav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: #fff;
+
+}
+
+.aboutlist_naving {
+    display: none;
+    transition: all 0.75s ease-in-out;
+}
+
+.firstsectionnav h1 {
+    font-size: 50px;
+
+}
+
+.sec_section {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    gap: 600px;
+
+}
+
+.aboutlist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+
+}
+
+.aboutlist li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.placement {
+    width: 100%;
+    height: auto;
+    background: url("https://www.nimsbbsr.ac.in/images/NIMS_banner-placement.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.placementcontent_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.placementcontent_section p {
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    width: 50%;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px 0px #00000091,
+        inset 10px 10px 20px 0px #00000091;
+}
+
+.placementcontent_section img {
+    margin-left: 20px;
+    height: 450px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.images_placees{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media(max-width:600px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    body,
+    html {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+        height: 25vh;
+        background-color: #000;
+    }
+
+    .firstsectionnav {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .firstsectionnav h1 {
+        font-size: 20px;
+
+    }
+
+    .sec_section {
+        width: 100%;
+        height: 15vh;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap: 600px;
+
+    }
+
+    .aboutlist {
+        display: none;
+
+
+
+    }
+
+    .aboutlist li a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    .aboutlist_naving {
+        display: block;
+        position: absolute;
+        right: 0%;
+        z-index: 999;
+        background-color: #000;
+        list-style: none;
+        width: 100%;
+        transform: translateY(-140%);
+        height: 70vh;
+    }
+
+    .just {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .aboutlist_naving li a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #linesabout {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #linesabout .stroke {
+        width: 90%;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    .placementcontent_section {
+        display: block;
+        margin: auto ;
+    }
+
+
+    .placementcontent_section p {
+        font-size: 12px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px 20px;
+        width: 80%;
+        height: 80vh;
+       
+    }
+    
+    .placementcontent_section img {
+        margin-left: 20px;
+        height: 270px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+    }
+    
+    .images_placees{
+        margin: auto;
+    }
+    .images_placees img{
+        width: 250px;
+        margin: auto;
+    }
+}
