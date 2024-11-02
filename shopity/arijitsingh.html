@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arijit Singh Songs</title>
+    
+</head>
+<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/0/0f/Arijit_5th_GiMA_Awards.jpg" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Madimi One", sans-serif;
+    }
+
+    body {
+        box-sizing: border-box;
+    }
+    .musicnavbar {
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.612);
+    }
+
+    .logoz_music_options {
+        width: 50%;
+        height: 13vh;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-family: "Madimi One", sans-serif;
+        justify-content: space-between;
+        font-size: 17px;
+        font-weight: bolder;
+        color: rgb(255, 203, 72);
+
+    }
+
+    .cd_with_mainsine {
+        font-family: cursive;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        gap: 20px;
+    }
+
+    .logoz_music_options img {
+        width: 80px;
+        border-radius: 50%;
+        box-shadow: 0px 3px 7px 0px #fff;
+    }
+
+    .search_music {
+        width: 40%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 203, 72);
+        position: relative;
+    }
+
+    .search_music input {
+        width: 100%;
+        height: 5vh;
+        background-color: rgb(255, 203, 72);
+        border: 1px solid rgb(255, 203, 72);
+    }
+
+    .search_music input::placeholder {
+        font-size: 17px;
+        font-family: cursive;
+        color: rgba(0, 0, 0, 0.612);
+        padding-left: 10px;
+
+    }
+
+    .search_music p {
+        position: absolute;
+        right: 3%;
+        font-size: 20px;
+    }
+
+    /*  */
+    .arijitsinghsongs {
+        width: 100%;
+        height: fit-content;
+        border: 10px solid gold;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .listestofarijit {
+        width: 23%;
+        height: 60vh;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 7px 0px rgb(0, 0, 0);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size: 60px;
+        color: gold;
+        margin-left: 20px;
+        margin-top: 20px;
+        transition: all 0.75s ease;
+    }
+
+    .listestofarijit i {
+        cursor: pointer;
+    }
+
+    .listestofarijit img {
+        width: 80%;
+        border: 10px;
+    }
+
+    .active {
+        color: red;
+    }
+
+    .option_song {
+        display: none;
+        position: absolute;
+    }
+
+
+    @media(max-width:1030px) {
+
+
+        .arijitsinghsongs {
+            display: block;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+
+        .listestofarijit {
+            width: 90%;
+            height: 60vh;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .listestofarijit img {
+            width: 45vh;
+        }
+
+        .logoz_music_options h3 {
+            display: none;
+        }
+
+        .dots {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            border-radius: 10px;
+            margin-right: 15px;
+            background: url("https://st2.depositphotos.com/1797936/10456/i/450/depositphotos_104568938-stock-photo-icon-illustration-isolated-on-a.jpg");
+            background-size: cover;
+        }
+
+        .option_song {
+            display: "block";
+            top: 0%;
+            transition: all 0.75s ease-in-out;
+            left: -100%;
+        }
+
+        .media_option_song {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(255, 203, 72);
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            font-size: 25px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .search_music_nav_options {
+            width: 80%;
+            height: 5vh;
+            display: flex;
+            background-color: rgb(255, 203, 72);
+            position: relative;
+            font-size: 20px;
+            box-shadow: 0px 3px 7px 0px #000000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .search_music_nav_options input {
+            width: 100%;
+            height: 5vh;
+            background-color: rgb(255, 203, 72);
+            border: 1px solid rgb(255, 203, 72);
+        }
+
+        .search_music_nav_options input::placeholder {
+            font-size: 17px;
+            font-family: cursive;
+            color: rgb(255, 255, 255);
+            padding-left: 10px;
+        }
+
+    }
+
+    @media(max-width:750px) {
+        .musicnavbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .search_music {
+            display: none;
+        }
+
+        .logoz_music_options h2 {
+            font-size: 5vw;
+        }
+    }
+</style>
+
+<body>
+    <div class="musicnavbar">
+        <div class="logoz_music_options">
+            <div class="cd_with_mainsine">
+                <a href="index.html">
+                    <img src="https://p7.hiclipart.com/preview/228/53/109/phonograph-record-record-sleeve-compact-disc-album-cover-pvc-vector.jpg"
+                        alt="logo">
+                </a>
+                <h2>Musi-Fy</h2>
+            </div>
+            <a style="text-decoration: none; color: rgb(255, 203, 72);" href="music.html"><h3>Music</h3></a>
+            <a  style="text-decoration: none; color: rgb(255, 203, 72);"href="music.html"><h3>Hellotune</h3></a>
+            <a style="text-decoration: none; color: rgb(255, 203, 72);" href="music.html"><h3>Ringtune</h3></a>
+    
+      
+        </div>
+        <div class="search_music">
+            <input type="text" placeholder="Search uncountlesly for music">
+            <p>&#127928</p>
+        </div>
+        <div class="dots">
+        </div>
+        <!-- nav options -->
+        <div class="option_song  media_option_song">
+            <div class="search_music_nav_options">
+                <input type="text" placeholder="Search uncountlesly for music">
+                <p>&#127928</p>
+            </div>
+            <a style="text-decoration: none; color: white" href="music.html"><h3>Music</h3></a>
+            <a style="text-decoration: none; color: white" href="music.html"><h3>Hellotune</h3></a>
+            <a  style="text-decoration: none; color:white;"  href="music.html"><h3>Ringtune</h3></a>
+    
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <!-- nav options end -->
+
+    <!--  -->
+    <div class="arijitsinghsongs">
+        <div class="listestofarijit">
+            <img src="https://www.cinejosh.com/newsimg/newsmainimg/dunki-drop-5-o-maahi-song-promo-released_b_1112230923.jpg"
+                alt="Song photo">
+            <i class="fa-solid fa-circle-play"></i>
+            <audio src="https://www.pagalworld.com.cm/files/download/id/68671"></audio>
+        </div>
+        <!--  -->
+        <div class="listestofarijit">
+            <img src="https://www.cinejosh.com/newsimg/newsmainimg/dunki-drop-5-o-maahi-song-promo-released_b_1112230923.jpg"
+                alt="Song photo">
+            <i class="fa-solid fa-circle-play"></i>
+            <audio src="https://www.pagalworld.com.cm/files/download/id/68671"></audio>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+
+
+    let audiolisthere = [
+
+        {
+            img: "https://www.cinejosh.com/newsimg/newsmainimg/dunki-drop-5-o-maahi-song-promo-released_b_1112230923.jpg",
+            audiosrc: "https://www.pagalworld.com.cm/files/download/id/68671",
+
+        },
+        {
+            img: "https://c.saavncdn.com/022/Heeriye-feat-Arijit-Singh-Hindi-2023-20230928050405-500x500.jpg",
+            audiosrc: "https://www.pagalworld.com.cm/files/download/id/68706",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6031",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6032",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6033",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6034",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6030",
+
+        },
+        {
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyuUUvt1JKRBL-dszIuQwP0yoPrTx5zHl0Ot6SI2oYv0x6BAfS1ZergX5j9oAMjOTyDZ8&usqp=CAU",
+            audiosrc: "https://pagalnew.com/download128/6029",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6028",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6027",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6026",
+
+        },
+        {
+            img: "https://c-fa.cdn.smule.com/rs-s87/arr/c2/10/c7cec262-186b-49a9-bf29-d39ad7a1c3af.jpg",
+            audiosrc: "https://pagalnew.com/download128/6025",
+
+        },
+        {
+            img: "https://m.media-amazon.com/images/M/MV5BN2Y0YjJkMTctNjNmMC00MDkyLTkzZDktMWZmNTdmN2YyNWNmXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg",
+            audiosrc: "https://pagalnew.com/download128/2632",
+
+        },
+        {
+            img: "https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/music/8902894360937/1616438120/srch_hungama_49098561.jpg",
+            audiosrc: "https://pagalnew.com/download128/2631",
+
+        },
+        {
+            img: "https://filmfare.wwmindia.com/content/2024/feb/kabirsinghshahidkapoor21708672547.jpg",
+            audiosrc: "https://pagalnew.com/download128/2386",
+
+        },
+        {
+            img: "https://images.indianexpress.com/2023/12/MixCollage-03-Dec-2023-05-38-PM-6597.jpg",
+            audiosrc: "https://pagalnew.com/download128/44104",
+
+        },
+      
+
+    ]
+
+
+
+    let arijitsinghlouad = document.querySelector('.arijitsinghsongs');
+    let vanishsong = '';
+    audiolisthere.forEach(heartocean => {
+        vanishsong += `
+<div class="listestofarijit">
+            <img src="${heartocean.img}"
+                alt="Song photo">
+            <i class="fa-solid fa-circle-play"></i>
+            <audio src="${heartocean.audiosrc}"></audio>
+        </div>
+`;
+    })
+    arijitsinghlouad.innerHTML = vanishsong;
+    // theend of audio dont touch
+
+
+    // don't touch this
+
+    let audio = document.querySelectorAll("audio");
+    let icons = document.querySelectorAll('.fa-circle-play');
+    function cheackplay() {
+        for (var i = 0; i < audio.length; i++) {
+            audio[i].pause();
+            icons[i].classList.remove('fa-circle-pause');
+            icons[i].classList.remove('active')
+        }
+    }
+    icons.forEach((run, key) => {
+        run.addEventListener('click', () => {
+            cheackplay();
+            if (audio[key].classList.contains('active')) {
+                audio[key].pause();
+                icons[key].classList.add('fa-circle-play');
+                audio[key].classList.remove('active');
+                icons[key].classList.remove('active')
+            } else {
+
+                audio[key].play();
+                icons[key].classList.add('fa-circle-pause');
+                audio[key].classList.add('active');
+                icons[key].classList.add('active')
+            }
+        })
+    })
+
+    let dotstap = document.querySelector('.dots');
+    let optionssongs = document.querySelector('.option_song');
+    dotstap.addEventListener('click', () => {
+        optionssongs.style.marginLeft = "100%";
+        document.body.style.overflowY="hidden";
+    })
+    let xmark = document.querySelector('.fa-xmark');
+    xmark.addEventListener("click", () => {
+        optionssongs.style.marginLeft = "-100%";
+        document.body.style.overflowY="scroll";
+
+    })
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Rubik Scribble", system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: url("https://img.freepik.com/premium-vector/sky-night-background-online-video-conferencing_23-2148619595.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.upperfive {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 2px 2px 0px #e8c3c3,
+        inset -1px -2px 10px 0px #ffffff;
+    position: absolute;
+    animation: round 7s infinite linear;
+}
+
+.upperfour {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 2px 2px 0px #ff0000,
+        inset -1px -2px 10px 0px #000000;
+    position: absolute;
+    animation: round 5s infinite linear;
+}
+
+.upperthree {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 2px 2px 0px #00ff15,
+        inset -1px -2px 10px 0px #2b6ae7;
+    position: absolute;
+    animation: round 4s infinite linear;
+}
+
+
+.uppertwo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 2px 2px 0px #f4ddc0,
+        inset -1px -2px 10px 0px #f1b066;
+    position: absolute;
+    animation: round 3s infinite linear;
+}
+
+
+.upperone {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: round 2s infinite linear;
+    box-shadow: inset 0px 2px 2px 0px #5d5d5d,
+        inset -1px -2px 10px 0px #c0b9b9;
+        cursor: pointer;
+}
+
+.mercury {
+    width: 30px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border-radius: 60%;
+    animation: round 1s infinite linear;
+}
+
+.venus {
+    width: 40px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border-radius: 60%;
+    animation: round 2s infinite linear;
+}
+
+.earth {
+    width: 60px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border-radius: 60%;
+    animation: round 4s infinite linear;
+}
+
+.mars {
+    width: 50px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border-radius: 60%;
+    animation: round 4s infinite linear;
+}
+
+.jupiter {
+    width: 80px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border-radius: 60%;
+    animation: round 4s infinite linear;
+}
+
+
+@keyframes round {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+
+
+.notfound {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Rubik Scribble", system-ui;
+}
+
+.notfound h1:nth-child(1) {
+    color: rgb(98, 243, 90);
+}
+
+.notfound h1:nth-child(3) {
+    color: rgb(234, 38, 234);
+}
+
+.notfound img {
+    width: 30px;
+    border-radius: 50%;
+    animation: round 4s infinite linear;
+}
+
+.allnature{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+@media(max-width:630px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .upperfive {
+        width: 90vw;
+        height: 90vw;
+
+    }
+
+
+
+    .jupiter {
+        width: 10vw;
+    }
+
+    .mars {
+        width: 7vw;
+    }
+
+    .earth {
+        width: 8vw;
+    }
+    .venus{
+        width: 6vw;
+    }
+    .mercury{
+        width: 4vw;
+    }
+
+    .upperfour {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .upperthree {
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+    .uppertwo {
+        width: 30vw;
+        height: 30vw;
+    }
+
+
+    .upperone {
+        width: 20vw;
+        height: 20vw;
+    }
+
+
+  
+}
